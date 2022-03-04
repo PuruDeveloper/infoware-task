@@ -1,0 +1,97 @@
+.pizza {
+  color: #dc3545;
+  width: 100%;
+}
+
+.pizza-home {
+  margin: 0 auto;
+}
+
+.explore {
+  text-align: center;
+  height: 256px;
+  width: 300px;
+  background-color: #dfe5e9;
+}
+.explore-links {
+  padding: 12px;
+  display: grid; /* 1 */
+  grid-template-columns: repeat(3, 85px); /* 2 */
+  grid-auto-rows: 94px; /* 3 */
+  grid-gap: 10px;
+}
+.explore > a {
+  align-items: center;
+  justify-content: center;
+}
+.explore-links > a > img {
+  width: 70px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.explore-links > a > p {
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.products {
+  margin-top: 40px;
+  display: inline-block;
+}
+.product {
+  display: block;
+  max-height: 300px;
+  text-align: center;
+  padding: 20px 0px;
+}
+.product > img {
+  width: 150px;
+}
+
+.red-button {
+  color: white;
+  background-color: #dc3545;
+  height: 30px;
+  width: 150px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+.pizza-cart-home {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.prize {
+  background: rgb(204, 213, 220);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: 20px auto;
+  padding: 12px;
+}
+
+.prize-sec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delivered-modal {
+  background-color: #0059b2;
+  position: relative;
+  top: -5%;
+  padding: 20px;
+}
+
+.select-size > select {
+  background-color: #0059b2;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 12px;
+}

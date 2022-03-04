@@ -1,0 +1,13 @@
+.navbar {
+  justify-content: space-between;
+  background-color: rgb(70, 70, 171);
+  padding: 12px;
+}
+
+.navbar a {
+  text-decoration: none !important;
+  color: white;
+  padding: 12px;
+  box-sizing: border-box;
+  font-weight: 500;
+}
